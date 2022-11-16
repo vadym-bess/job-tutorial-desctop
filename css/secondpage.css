@@ -498,7 +498,7 @@ body {
 .footer-thumb {
   position: absolute;
   left: 1000px;
-  bottom: 500px;
+  bottom: 300px;
   z-index: 2;
 }
 
@@ -609,5 +609,36 @@ body {
   letter-spacing: -0.5px;
   color: #E7EAF0;
   margin-left: -123px;
+}
+
+.footer-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 213px;
+  height: 50px;
+  margin-top: 90px;
+  margin-left: -1400px;
+  color: #384564;
+  opacity: 0.14;
+  border-radius: 8px;
+}
+
+.footer-button__text {
+  display: block;
+  font-family: 'Proxima Nova';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000;
 }
 /*# sourceMappingURL=secondpage.css.map */
