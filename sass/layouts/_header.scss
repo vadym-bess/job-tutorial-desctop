@@ -1,6 +1,6 @@
 .header{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: flex-start;
     flex-direction: row;
     margin-top: 56px;
 }
@@ -15,6 +15,7 @@
     line-height: 34px;
     letter-spacing: 0.413333px;
     color: #3A4562;
+    margin-right: 370px;
 }
 
 .header__title::after{

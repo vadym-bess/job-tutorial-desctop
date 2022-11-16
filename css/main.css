@@ -341,13 +341,116 @@ body {
           transform: rotate(45deg);
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+a,
+p,
+h1,
+h2,
+h3,
+h4,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  background: #E6E9F2;
+  padding-top: 56px;
+  padding-left: 350px;
+  padding-bottom: 162px;
+  padding-right: 465px;
+  margin: 0;
+  overflow: scroll;
+}
+
+.second-title-thumb {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 50px;
+  gap: 50px;
+}
+
+.second-title-thumb__heading {
+  font-family: 'Proxima Nova';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.25;
+  letter-spacing: -0.75px;
+  color: #3A4562;
+  width: 580px;
+}
+
+.second-title-thumb__heading--text {
+  font-family: 'Proxima Nova';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.25;
+  letter-spacing: -0.625px;
+  color: #3A4562;
+}
+
+.salary-sum {
+  font-family: 'Proxima Nova';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.25;
+  letter-spacing: -0.625px;
+  color: #3A4562;
+}
+
+.salary-sum--description {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: -0.5625px;
+  color: #3A4562;
+}
+
+.post-information {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: -0.5625px;
+  color: rgba(56, 65, 93, 0.355988);
+  margin-top: 7px;
+}
+
 .header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
@@ -367,6 +470,7 @@ body {
   line-height: 34px;
   letter-spacing: 0.413333px;
   color: #3A4562;
+  margin-right: 370px;
 }
 
 .header__title::after {
@@ -477,10 +581,9 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  margin-left: -650px;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
   margin-top: 30px;
 }
 /*# sourceMappingURL=main.css.map */
