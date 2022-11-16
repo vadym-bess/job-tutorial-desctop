@@ -444,8 +444,8 @@ body {
 
 .footer-thumb{
     position: absolute;
-    left: 1000px;
-    bottom: 300px;
+    left: 1050px;
+    bottom: 200px;
     z-index: 2;
 }
 
@@ -540,7 +540,7 @@ body {
     height: 50px;
     margin-top: 90px;
     margin-left: -1400px;
-    color: #384564;
+    background-color: #384564;
     opacity: 0.14;
     border-radius: 8px;
     
@@ -556,6 +556,6 @@ body {
     text-align: center;
     text-transform: uppercase;
     color: #000;
-
+    z-index: 3;
     
 }
