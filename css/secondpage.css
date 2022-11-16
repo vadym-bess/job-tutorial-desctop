@@ -52,7 +52,6 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  margin-top: 56px;
 }
 
 .header__title {
