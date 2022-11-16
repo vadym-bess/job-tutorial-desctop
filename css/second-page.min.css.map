@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../sass/second-page.scss",
+        "../sass/pages/_second-page.scss"
+    ],
+    "names": [],
+    "file": "second-page.min.css"
+}
