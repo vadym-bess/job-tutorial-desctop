@@ -31,7 +31,7 @@ ul {
 body {
     width: 100%;
     height: 100%;
-    background: #E6E9F2;
+    background: var(--background-color);
     padding-top: 56px;
     padding-left: 200px;
     padding-bottom: 162px;
@@ -56,7 +56,7 @@ body {
     font-size: 28px;
     line-height: 34px;
     letter-spacing: 0.413333px;
-    color: #3A4562;
+    color: var(--accent-color);
     margin-right: 370px;
 }
 
@@ -66,7 +66,7 @@ body {
     min-width: 775px;
     height: 1px;
     bottom: -10px;
-    background: #3A4562;
+    background: var(--accent-color);
     opacity: 0.13;
     left: 0;
 
@@ -102,7 +102,7 @@ body {
     font-size: 18px;
     line-height: 1.33;
     letter-spacing: -0.5625px;
-    color: #3A4562;
+    color: var(--accent-color);
     margin-right: 31px;
 }
 
@@ -124,7 +124,7 @@ body {
     font-size: 18px;
     line-height: 1.33;
     letter-spacing: -0.5625px;
-    color: #3A4562;
+    color: var(--accent-color);
 }
 
 .second-title-thumb{
@@ -142,7 +142,7 @@ body {
     font-size: 24px;
     line-height: 1.25;
     letter-spacing: -0.75px;
-    color: #3A4562;
+    color: var(--accent-color);
     width: 580px;
 }
 
@@ -153,7 +153,7 @@ body {
     font-size: 20px;
     line-height: 1.25;
     letter-spacing: -0.625px;
-    color: #3A4562;
+    color: var(--accent-color);
 }
 
 .salary-sum{
@@ -163,7 +163,7 @@ body {
     font-size: 20px;
     line-height: 1.25;
     letter-spacing: -0.625px;
-    color: #3A4562;
+    color: var(--accent-color);
 }
 
 .salary-sum--description{
@@ -173,7 +173,7 @@ body {
     font-size: 18px;
     line-height: 1.33;
     letter-spacing: -0.5625px;
-    color: #3A4562;
+    color: var(--accent-color);
 }
 
 .post-information{
@@ -194,7 +194,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #384564;
+    background: var(--submit-button-bgc);
     border-radius: 8px;
     width: 150px;
     height: 60px;
@@ -216,7 +216,7 @@ body {
     font-size: 12px;
     line-height: 1.33;
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: var(--white-color);
 }
 
 .button-conteiner {
@@ -233,7 +233,7 @@ body {
     font-size: 18px;
     line-height: 1.33;
     letter-spacing: -0.5625px;
-    color: #3A4562;
+    color: var(--accent-color);
     margin-top: 10px;
     width: 780px;
 }
@@ -245,7 +245,7 @@ body {
     font-size: 20px;
     line-height: 1.25;
     letter-spacing: -0.625px;
-    color: #3A4562;
+    color: var(--accent-color);
     margin-top: 30px;
 }
 
@@ -260,7 +260,7 @@ body {
     font-size: 28px;
     line-height: 34px;
     letter-spacing: 0.413333px;
-    color: #3A4562;
+    color: var(--accent-color);
     margin-top: 86px;
 }
 
@@ -290,7 +290,7 @@ body {
     width: 780px;
     height: 1px;
     bottom: 155px;
-    background: #3A4562;
+    background: var(--accent-color);
     opacity: 0.13;
     left: 0;
     bottom: 145px;
@@ -304,7 +304,7 @@ body {
     justify-content: space-around;
     width: 222px;
     height: 50px;
-    background: rgba(161, 177, 219, 0.317343);
+    background: var(--job-button-items-bgc);
     border: 1px solid rgba(0, 0, 0, 0.12);
     border-radius: 8px;
     cursor: pointer;
@@ -329,14 +329,14 @@ body {
     font-size: 16px;
     line-height: 1.0;
     letter-spacing: -0.457143px;
-    color: #55699E;
+    color: var(--current-color);
 }
 
 .job-button__second-row {
     width: 177px;
     height: 50px;
-    background: rgba(255, 207, 0, 0.15);
-    border: 1px solid #FFCF00;
+    background: var(--job-button-second-row-bgc);
+    border: 1px solid var(--job-button-second-row-border);
     border-radius: 8px;
     cursor: pointer;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -357,7 +357,7 @@ body {
     line-height: 1.0px;
     text-align: center;
     letter-spacing: -0.4px;
-    color: #988B49;
+    color: var(--job-button-second-row-text);
     cursor: pointer;
 }
 
@@ -378,7 +378,7 @@ body {
     width: 780px;
     height: 1px;
     bottom: 155px;
-    background: #3A4562;
+    background: var(--accent-color);
     opacity: 0.13;
     left: 0;
     bottom: 150px;
@@ -403,7 +403,7 @@ body {
     justify-content: center;
     width: 372px;
     height: 436px;
-    background: #2A3047;
+    background: var(--footer-thumb-background-color);
     border-radius: 8px;
     margin-top: 31px;
     align-items: flex-end;
@@ -422,7 +422,7 @@ body {
     width: 780px;
     height: 1px;
     bottom: -10px;
-    background: #3A4562;
+    background: var(--accent-color);
     opacity: 0.13;
     left: 0px;
 
@@ -452,7 +452,7 @@ body {
     display: flex;
     width: 372px;
     height: 218px;
-    background-color: #fff;
+    background-color: var(--white-color);
     border-bottom-left-radius: 8px;
     border-bottom-right-radius: 8px;
 }
@@ -462,7 +462,7 @@ body {
     flex-direction: column;
     width: 372px;
     height: 218px;
-    background: #2A3047;
+    background: var(--footer-thumb-upper-background);
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
 }
@@ -476,7 +476,7 @@ body {
     font-size: 16px;
     line-height: 19px;
     letter-spacing: 0.23619px;
-    color: #E7EAF0;
+    color: var(--footer-thumb-upper-heding-color);
     margin-top: 31px;
 }
 
@@ -489,7 +489,7 @@ body {
     font-size: 16px;
     line-height: 1.44;
     letter-spacing: -0.5px;
-    color: #E7EAF0;
+    color: var(--footer-thumb-upper-heding-color);
     margin-top: 17px;
     margin-left: 19px;
     gap: 8px;
@@ -505,7 +505,7 @@ body {
     font-size: 16px;
     line-height: 1.44;
     letter-spacing: -0.5px;
-    color: rgba(255, 255, 255, 0.669635);
+    color: var(--footer-thumb-upper--contacts-color);
     margin-top: 6px;
     margin-left: -40px;
 }
@@ -527,7 +527,7 @@ body {
     font-size: 16px;
     line-height: 1.44;
     letter-spacing: -0.5px;
-    color: #E7EAF0;
+    color: var(--footer-thumb-upper-heding-color);
     margin-left: -123px;
 }
 
@@ -539,7 +539,7 @@ body {
     height: 50px;
     margin-top: 90px;
     margin-left: -850px;
-    background-color: #c0c4c4;
+    background-color: var(--footer-button-bgc);
     border-radius: 8px;
     padding-right: 20px;
     cursor: pointer;
@@ -562,7 +562,7 @@ body {
     line-height: 1.33;
     text-align: center;
     text-transform: uppercase;
-    color: #000;
+    color: var(--footer-button-text-color);
     z-index: 3;
     
 }
@@ -588,7 +588,7 @@ body {
     content: '';
     width: 13px;
     height: 13px;
-    border: 4px solid #000;
+    border: 4px solid var(--footer-button-text-color);
     border-top: transparent;
     border-right: transparent;
     transform: rotate(45deg);
