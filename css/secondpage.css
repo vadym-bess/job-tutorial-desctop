@@ -497,7 +497,7 @@ body {
 .footer-thumb {
   position: absolute;
   left: 1030px;
-  bottom: 240px;
+  bottom: 280px;
   z-index: 2;
 }
 
@@ -677,7 +677,7 @@ body {
   content: '';
   width: 13px;
   height: 13px;
-  border: 4px solid #7D859C;
+  border: 4px solid #000;
   border-top: transparent;
   border-right: transparent;
   -webkit-transform: rotate(45deg);
