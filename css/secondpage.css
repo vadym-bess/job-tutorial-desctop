@@ -663,4 +663,26 @@ body {
   width: 213px;
   height: 50px;
 }
+
+.footer-conteiner__left-arrow {
+  position: relative;
+  width: 18px;
+  height: 19px;
+  left: -60px;
+  cursor: pointer;
+}
+
+.footer-conteiner__left-arrow::after {
+  position: absolute;
+  content: '';
+  width: 13px;
+  height: 13px;
+  border: 4px solid #7D859C;
+  border-top: transparent;
+  border-right: transparent;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  left: 45px;
+  z-index: 1;
+}
 /*# sourceMappingURL=secondpage.css.map */
